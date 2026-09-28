@@ -1,0 +1,61 @@
+# id|area|label|audience|approver|fields
+recruitment|HRIS|Rekrutmen kandidat|HR|CORSEC_DIRECTOR|candidate_name,role_name,due_date,summary
+onboarding|HRIS|Persiapan karyawan baru|HR|CORSEC_DIRECTOR|person_name,start_date,due_date,summary
+offboarding|HRIS|Proses karyawan keluar|HR|CORSEC_DIRECTOR|person_name,end_date,due_date,summary
+manpower_request|HRIS|Permintaan tenaga kerja|PROJECT|TALENT_MANAGER|role_name,quantity,start_date,end_date,summary
+workforce_plan|HRIS|Rencana kebutuhan tim|HR|CORSEC_DIRECTOR|role_name,quantity,start_date,end_date,summary
+benefit|HRIS|Tunjangan dan fasilitas|HR|FINANCE_DIRECTOR|person_name,amount,category,summary
+overtime|HRIS|Permintaan lembur|ESS|SENIOR_PM|start_date,hours,summary
+kpi|HRIS|Target dan evaluasi KPI|HR|CORSEC_DIRECTOR|person_name,target,rating,due_date,summary
+learning|HRIS|Pelatihan tim|HR|CORSEC_DIRECTOR|person_name,course,start_date,due_date,summary
+employee_contract|HRIS|Kontrak kerja karyawan|HR|CORSEC_DIRECTOR|person_name,start_date,end_date,reference,summary
+discipline|HRIS|Tindakan disiplin|HR|CORSEC_DIRECTOR|person_name,category,due_date,summary
+grievance|HRIS|Keluhan karyawan|ESS|CORSEC_DIRECTOR|category,summary,due_date
+clearance|HRIS|Checklist clearance|HR|CORSEC_DIRECTOR|person_name,end_date,summary
+talent_rating|HRIS|Penilaian talent|TALENT|TALENT_MANAGER|person_name,rating,category,summary
+pjp|HRIS|Rencana kunjungan lapangan|PROJECT|SENIOR_PM|start_date,end_date,location,summary
+field_activity|HRIS|Aktivitas tim lapangan|PROJECT|SENIOR_PM|start_date,location,quantity,summary
+resource_allocation|ERP|Alokasi orang dan sumber daya|PROJECT|SENIOR_PM|person_name,start_date,end_date,summary
+milestone|ERP|Tonggak waktu proyek|PROJECT|SENIOR_PM|due_date,target,summary
+budget_plan|ERP|Rencana anggaran proyek|PROJECT|FINANCE_DIRECTOR|amount,category,due_date,summary
+budget_revision|ERP|Revisi anggaran proyek|PROJECT|FINANCE_DIRECTOR|amount,reference,summary
+project_costing|ERP|Perkiraan biaya dan margin|PROJECT|FINANCE_DIRECTOR|amount,target,summary
+risk|ERP|Risiko proyek|PROJECT|SENIOR_PM|category,rating,due_date,summary
+issue|ERP|Masalah proyek|PROJECT|SENIOR_PM|category,due_date,summary
+event_runbook|ERP|Rundown dan operasi event|PROJECT|SENIOR_PM|start_date,location,summary
+rfq|ERP|Permintaan penawaran vendor|PURCHASING|FINANCE_DIRECTOR|person_name,quantity,amount,due_date,summary
+vendor_evaluation|ERP|Evaluasi vendor|PURCHASING|FINANCE_DIRECTOR|person_name,rating,category,summary
+shipment|ERP|Pengiriman barang|WAREHOUSE|GA_SUPERVISOR|reference,location,quantity,due_date,summary
+asset_maintenance|ERP|Perawatan aset|WAREHOUSE|GA_SUPERVISOR|reference,due_date,amount,summary
+project_contract|ERP|Kontrak proyek|GOVERNANCE|CORSEC_DIRECTOR|person_name,reference,start_date,end_date,summary
+payable|ERP|Tagihan vendor (AP)|FINANCE|FINANCE_DIRECTOR|person_name,amount,due_date,reference,summary
+receivable|ERP|Piutang manual (AR)|FINANCE|FINANCE_DIRECTOR|person_name,amount,due_date,reference,summary
+cash_plan|ERP|Rencana arus kas|FINANCE|FINANCE_DIRECTOR|amount,start_date,category,summary
+bank_reconciliation|ERP|Rekonsiliasi bank|FINANCE|FINANCE_DIRECTOR|reference,amount,start_date,summary
+tax_register|ERP|Register pajak|TAX|FINANCE_DIRECTOR|reference,amount,start_date,category,summary
+project_settlement|ERP|Penutupan biaya proyek|FINANCE|FINANCE_DIRECTOR|amount,reference,due_date,summary
+brief|CRM|Brief klien|CRM|NONE|person_name,due_date,summary
+rfp_client|CRM|RFP dari klien|CRM|NONE|reference,due_date,summary
+pitch|CRM|Persiapan pitching|CRM|NONE|due_date,person_name,summary
+proposal|CRM|Proposal klien|CRM|NONE|amount,due_date,reference,summary
+negotiation|CRM|Catatan negosiasi|CRM|NONE|amount,person_name,due_date,summary
+client_agreement|CRM|Perjanjian klien|CRM|CORSEC_DIRECTOR|person_name,reference,start_date,end_date,summary
+contact|CRM|Kontak klien tambahan|CRM|NONE|person_name,contact_email,role_name,summary
+decision_maker|CRM|Pengambil keputusan|CRM|NONE|person_name,contact_email,role_name,summary
+communication|CRM|Riwayat komunikasi|CRM|NONE|person_name,start_date,summary
+complaint|CRM|Keluhan klien|CRM|NONE|category,due_date,summary
+service_case|CRM|Layanan klien|CRM|NONE|person_name,due_date,summary
+client_survey|CRM|Survei kepuasan|CRM|NONE|rating,start_date,summary
+client_feedback|CRM|Masukan klien|CRM|NONE|rating,category,summary
+retention|CRM|Rencana retensi klien|CRM|NONE|due_date,target,summary
+repeat_order|CRM|Peluang pesanan ulang|CRM|NONE|amount,due_date,summary
+account_review|CRM|Tinjauan akun klien|CRM|NONE|amount,due_date,summary
+campaign|CRM|Kampanye pemasaran|CRM|NONE|start_date,end_date,amount,summary
+marketing_activity|CRM|Aktivitas pemasaran|CRM|NONE|start_date,location,summary
+lead_source|CRM|Sumber lead|CRM|NONE|category,quantity,summary
+win_loss|CRM|Analisis menang atau kalah|CRM|NONE|category,amount,summary
+revenue_forecast|CRM|Perkiraan pendapatan|CRM|NONE|amount,due_date,summary
+governance|SHARED|Keputusan tata kelola|GOVERNANCE|CORSEC_DIRECTOR|due_date,reference,summary
+system_change|SHARED|Perubahan konfigurasi|GOVERNANCE|CEO|category,due_date,summary
+integration_request|SHARED|Permintaan integrasi|GOVERNANCE|CEO|category,due_date,summary
+data_correction|SHARED|Koreksi data|GOVERNANCE|CEO|reference,due_date,summary
